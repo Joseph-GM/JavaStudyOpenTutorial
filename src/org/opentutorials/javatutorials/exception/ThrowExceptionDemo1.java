@@ -13,6 +13,7 @@ class Be{
 class E {
     void run(){
         Be b = new Be();
+//        b.run();
         try {
             b.run();
         } catch (FileNotFoundException e) {
